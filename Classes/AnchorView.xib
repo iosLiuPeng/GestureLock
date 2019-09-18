@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AnchorView">
+            <connections>
+                <outlet property="viewBorder" destination="juR-ZL-ahp" id="arf-lA-xOm"/>
+                <outlet property="viewCenter" destination="fS1-5j-fzO" id="4Ie-S6-PyN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="juR-ZL-ahp" customClass="IBView">
+                    <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fS1-5j-fzO" userLabel="View center" customClass="IBView">
+                            <rect key="frame" x="60" y="60" width="80" height="80"/>
+                            <color key="backgroundColor" red="0.2666666667" green="0.72156862749999995" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="fS1-5j-fzO" secondAttribute="height" multiplier="1:1" id="JeH-l4-9wg"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="boolean" keyPath="hSemicircle" value="YES"/>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="fS1-5j-fzO" firstAttribute="height" secondItem="juR-ZL-ahp" secondAttribute="height" multiplier="0.4" id="60G-nP-REX"/>
+                        <constraint firstItem="fS1-5j-fzO" firstAttribute="centerX" secondItem="juR-ZL-ahp" secondAttribute="centerX" id="RtB-fc-BpE"/>
+                        <constraint firstItem="fS1-5j-fzO" firstAttribute="centerY" secondItem="juR-ZL-ahp" secondAttribute="centerY" id="a0C-Tw-22l"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" red="0.26666666666666666" green="0.72156862745098038" blue="0.46274509803921571" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="hSemicircle" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="juR-ZL-ahp" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="MVc-bw-msC"/>
+                <constraint firstAttribute="bottom" secondItem="juR-ZL-ahp" secondAttribute="bottom" id="aT9-LB-eAo"/>
+                <constraint firstAttribute="trailing" secondItem="juR-ZL-ahp" secondAttribute="trailing" id="pgW-nq-KQs"/>
+                <constraint firstItem="juR-ZL-ahp" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="qPG-4Y-PZ3"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="-16.666666666666668" y="255.80357142857142"/>
+        </view>
+    </objects>
+</document>

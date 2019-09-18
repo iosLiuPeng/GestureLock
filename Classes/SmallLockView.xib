@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SmallLockView">
+            <connections>
+                <outlet property="view0" destination="VOY-qa-55Q" id="tF2-Ph-HOd"/>
+                <outlet property="view1" destination="m6P-I6-b7F" id="CcO-3C-MRN"/>
+                <outlet property="view2" destination="T7o-U6-n6r" id="d2y-S9-JfJ"/>
+                <outlet property="view3" destination="TEj-sZ-53y" id="Iuw-lb-ehq"/>
+                <outlet property="view4" destination="Xja-fw-3s9" id="G9G-yd-QFG"/>
+                <outlet property="view5" destination="WMX-1h-Ssv" id="cvH-Xa-Yq1"/>
+                <outlet property="view6" destination="n0b-ya-lMR" id="9Tm-Jc-w1v"/>
+                <outlet property="view7" destination="S9b-jh-yNT" id="6EK-qc-3nz"/>
+                <outlet property="view8" destination="ahp-PK-fMU" id="I7T-8g-VVN"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="44r-c3-1T3">
+                    <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="f8A-4v-9RB">
+                            <rect key="frame" x="0.0" y="0.0" width="100" height="25"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VOY-qa-55Q" customClass="IBView">
+                                    <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                    <color key="backgroundColor" red="0.2666666667" green="0.72156862749999995" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="hSemicircle" value="YES"/>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                            <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="m6P-I6-b7F" customClass="IBView">
+                                    <rect key="frame" x="37.666666666666664" y="0.0" width="25" height="25"/>
+                                    <color key="backgroundColor" red="0.2666666667" green="0.72156862749999995" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="hSemicircle" value="YES"/>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                            <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T7o-U6-n6r" customClass="IBView">
+                                    <rect key="frame" x="75" y="0.0" width="25" height="25"/>
+                                    <color key="backgroundColor" red="0.2666666667" green="0.72156862749999995" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="hSemicircle" value="YES"/>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                            <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="T7o-U6-n6r" firstAttribute="width" secondItem="T7o-U6-n6r" secondAttribute="height" multiplier="1:1" id="8th-31-vyn"/>
+                                <constraint firstItem="m6P-I6-b7F" firstAttribute="width" secondItem="m6P-I6-b7F" secondAttribute="height" multiplier="1:1" id="F2o-Bz-0Z8"/>
+                                <constraint firstItem="VOY-qa-55Q" firstAttribute="width" secondItem="VOY-qa-55Q" secondAttribute="height" multiplier="1:1" id="MD7-dV-Ce0"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="3Tf-Mr-BgT">
+                            <rect key="frame" x="0.0" y="37.666666666666664" width="100" height="25"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TEj-sZ-53y" customClass="IBView">
+                                    <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                    <color key="backgroundColor" red="0.2666666667" green="0.72156862749999995" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="hSemicircle" value="YES"/>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                            <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xja-fw-3s9" customClass="IBView">
+                                    <rect key="frame" x="37.666666666666664" y="0.0" width="25" height="25"/>
+                                    <color key="backgroundColor" red="0.2666666667" green="0.72156862749999995" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="hSemicircle" value="YES"/>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                            <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WMX-1h-Ssv" customClass="IBView">
+                                    <rect key="frame" x="75" y="0.0" width="25" height="25"/>
+                                    <color key="backgroundColor" red="0.2666666667" green="0.72156862749999995" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="hSemicircle" value="YES"/>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                            <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="TEj-sZ-53y" firstAttribute="width" secondItem="TEj-sZ-53y" secondAttribute="height" multiplier="1:1" id="34W-Oj-TaV"/>
+                                <constraint firstItem="WMX-1h-Ssv" firstAttribute="width" secondItem="WMX-1h-Ssv" secondAttribute="height" multiplier="1:1" id="UJq-YB-gep"/>
+                                <constraint firstItem="Xja-fw-3s9" firstAttribute="width" secondItem="Xja-fw-3s9" secondAttribute="height" multiplier="1:1" id="h5M-n3-gqH"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="Jqq-NR-UVJ">
+                            <rect key="frame" x="0.0" y="75" width="100" height="25"/>
+                            <subviews>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n0b-ya-lMR" customClass="IBView">
+                                    <rect key="frame" x="0.0" y="0.0" width="25" height="25"/>
+                                    <color key="backgroundColor" red="0.2666666667" green="0.72156862749999995" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="hSemicircle" value="YES"/>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                            <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S9b-jh-yNT" customClass="IBView">
+                                    <rect key="frame" x="37.666666666666664" y="0.0" width="25" height="25"/>
+                                    <color key="backgroundColor" red="0.2666666667" green="0.72156862749999995" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="hSemicircle" value="YES"/>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                            <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ahp-PK-fMU" customClass="IBView">
+                                    <rect key="frame" x="75" y="0.0" width="25" height="25"/>
+                                    <color key="backgroundColor" red="0.2666666667" green="0.72156862749999995" blue="0.46274509800000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="boolean" keyPath="hSemicircle" value="YES"/>
+                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                            <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </userDefinedRuntimeAttribute>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                            <real key="value" value="1"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </view>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="S9b-jh-yNT" firstAttribute="width" secondItem="S9b-jh-yNT" secondAttribute="height" multiplier="1:1" id="8wv-ac-uqe"/>
+                                <constraint firstItem="ahp-PK-fMU" firstAttribute="width" secondItem="ahp-PK-fMU" secondAttribute="height" multiplier="1:1" id="Pqn-Oz-PnK"/>
+                                <constraint firstItem="n0b-ya-lMR" firstAttribute="width" secondItem="n0b-ya-lMR" secondAttribute="height" multiplier="1:1" id="pCg-1f-XE6"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="3Tf-Mr-BgT" firstAttribute="height" secondItem="f8A-4v-9RB" secondAttribute="height" id="CZj-ou-cD6"/>
+                        <constraint firstItem="f8A-4v-9RB" firstAttribute="height" secondItem="44r-c3-1T3" secondAttribute="height" multiplier="0.25" id="XJs-Zj-34g"/>
+                        <constraint firstItem="Jqq-NR-UVJ" firstAttribute="height" secondItem="f8A-4v-9RB" secondAttribute="height" id="gFm-hl-rX6"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="44r-c3-1T3" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="3zf-hZ-erp"/>
+                <constraint firstAttribute="trailing" secondItem="44r-c3-1T3" secondAttribute="trailing" id="rPk-7v-S8N"/>
+                <constraint firstItem="44r-c3-1T3" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="t8g-a6-eDy"/>
+                <constraint firstAttribute="bottom" secondItem="44r-c3-1T3" secondAttribute="bottom" id="vWK-Jd-nl0"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="137.68115942028987" y="143.8858695652174"/>
+        </view>
+    </objects>
+</document>
